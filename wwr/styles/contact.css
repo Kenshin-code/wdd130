@@ -1,0 +1,174 @@
+body { 
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header img {
+    width: 150px; 
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px dashed #333;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    color: wheat;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    margin-top: 20px;
+}
+
+.info p {
+    margin: 0 20px;  
+    font-size: 16px;  
+}
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.pictures img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 1px dashed #888;
+}
+
+.pictures p {
+    text-align: center;
+    width: 300px; 
+    margin-top: 10px;
+}
+
+.pictures div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; 
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ccc;
+    width: 60%;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 2px dashed #aaa;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.form-item {
+    display: flex;  
+    align-items: center; 
+    margin-bottom: 15px;  
+}
+
+.column1, .column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 20px;
+}
+
+footer nav a {
+    margin: 10px;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+}
